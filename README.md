@@ -48,17 +48,30 @@ PART TWO (Logical Operator using Orders Table)
 ---Part Three
 
 ---1)	Question: Retrieve the top 5 customers who have made the most orders. Include customer details and order 	counts.
+
 ---2)	Question: List the employees who have placed the most orders. Include employee details and order counts.
+
 ---3)	Question: Retrieve all products and calculate the average price for each category. Show the category name, 	product name, and average price.
+
 ---4)	Question: List the top 3 customers who made the highest total purchases. Show customer details and total 	purchase amount.
+
 ---5)	Calculate the rank of each product by price within its category. Show the product name, price, category, 	and rank.
+
 ---6)	List the employees and their orders in descending order of the number of orders placed.
+
 ---7)	Retrieve the product names and the number of orders they appear in. Show the most ordered products first.
+
 ---8)	Calculate the dense rank of products by price within their category. Show product name, price, category, 	and dense rank.
+
 ---9)	Calculate the row number for products within their category, ordered by price. Show product name, price, 	category, and row number.
+
 ---10)	Create a stored procedure named GetOrderDetails that takes an OrderID as input and returns the details of 	that order.
+
 ---11)	Create a stored procedure named GetEmployeeOrders that takes an EmployeeID as input and returns all orders 	placed by that employee.
+
 ---12)	Create a stored procedure named GetHighValueCustomers that returns a list of customers who have made 	purchases above a specified total purchase amount.
+
 ---13)	Create a stored procedure named GetCategoryRevenue that takes a CategoryID as input and returns the total 	revenue for all products in that category.
+
 ---14)	Create a stored procedure named GetProductSales that takes a ProductID as input and returns the total 	sales (revenue) for that product.
 
